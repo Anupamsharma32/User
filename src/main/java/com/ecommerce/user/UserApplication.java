@@ -7,6 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class UserApplication {
 
 	public static void main(String[] args) {
+		// System.out.println("CHECK URI = " + System.getProperty("spring.data.mongodb.uri"));
 		SpringApplication.run(UserApplication.class, args);
 	}
 
